@@ -1,0 +1,13 @@
+<form method="POST" action="#">
+
+    @csrf
+
+    [[fields]]
+
+    <div class="row">
+        <button type="submit" class="btn btn-primary">
+            Submit
+        </button>
+    </div>
+
+</form>

@@ -1,0 +1,7 @@
+<div class="form-group">
+    <label for="{{ $id }}">{{ $name }}</label>
+
+    <select id="{{ $id }}" name="{{ $name }}" class="{{ $class }}" {{ $required }}>
+        {{ $options }}
+    </select>
+</div>

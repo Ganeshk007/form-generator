@@ -1,0 +1,47 @@
+{
+    "name": "ganesh/form-generator",
+    "description": "A Laravel package for form fields generate",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "form",
+        "generator"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ganesh",
+            "email": "ganesh100295@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ganesh\\FormGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ganesh\\FormGenerator\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ganesh\\FormGenerator\\FormGeneratorServiceProvider"
+            ],
+            "aliases": {
+                "FormGenerator": "Ganesh\\FormGenerator\\Facades\\FormGenerator"
+            }
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
