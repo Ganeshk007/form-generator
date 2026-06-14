@@ -1,5 +1,5 @@
 {
-    "name": "ganesh/form-generator",
+    "name": "ganeshk007/form-generator",
     "description": "A Laravel package for form fields generate",
     "type": "library",
     "keywords": [
@@ -10,7 +10,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Ganesh",
+            "name": "Ganesh Kumar",
             "email": "ganesh100295@gmail.com"
         }
     ],
