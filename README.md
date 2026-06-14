@@ -31,10 +31,8 @@ The package currently supports the following field types:
 * Radio
 * Checkbox
 * File Upload
-* Hidden
-* Submit Button
 
-Additional field types can easily be added using stub templates.
+Additional field types can easily be added using stub reference templates.
 
 ---
 
@@ -43,7 +41,7 @@ Additional field types can easily be added using stub templates.
 Install the package via Composer:
 
 ```bash
-composer require ganesh/form-generator
+composer require ganeshk007/form-generator
 ```
 
 Publish package assets and migrations:
